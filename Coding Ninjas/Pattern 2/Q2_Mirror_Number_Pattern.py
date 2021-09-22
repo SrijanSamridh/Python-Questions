@@ -33,3 +33,4 @@ for i in range(0, n):
         print(j + 1, end="")
     # ending line after each row
     print("\r")
+#         Code by Srijan Samridh
