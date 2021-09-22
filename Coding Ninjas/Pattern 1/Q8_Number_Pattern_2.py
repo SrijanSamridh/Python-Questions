@@ -25,3 +25,4 @@ for i in range(1, n):
         else:
             print("0", end='')
     print()
+#         Code by Srijan Samridh
