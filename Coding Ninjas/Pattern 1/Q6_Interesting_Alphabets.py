@@ -23,3 +23,4 @@ for i in range(1, n + 1):
         char = chr(ord(start_char) + j - 1)
         print(char, end='')
     print()
+#         Code by Srijan Samridh
