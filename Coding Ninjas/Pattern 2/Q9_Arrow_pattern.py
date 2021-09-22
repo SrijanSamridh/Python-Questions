@@ -46,3 +46,4 @@ while i <= n2:
         j += 1
     print()
     i += 1
+#         Code by Srijan Samridh
