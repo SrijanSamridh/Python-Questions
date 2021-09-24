@@ -13,6 +13,8 @@
 
 ## Read input as specified in the question.
 ## Print output as specified in the question.
+
+                            # With "While Loop"
 n = int(input())
 
 i = 1
@@ -37,3 +39,25 @@ while i <= n:
     print()
     i += 1
 #         Code by Srijan Samridh
+
+
+
+                                    # With "For Loop"
+for i in range(n):
+    for j in range(n):
+        if i == j:
+            print("*", end="")
+        else:
+            print("0", end="")
+            
+    print("*", end="")
+    
+    for j in range(n-1, -1, -1):
+        if i == j:
+            print("*", end="")
+        else:
+            print("0", end="")
+    print()
+    
+    
+    
