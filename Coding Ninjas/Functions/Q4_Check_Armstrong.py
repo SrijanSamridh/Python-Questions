@@ -36,3 +36,7 @@ def Am(number):
 
 n = int(input())
 print(Am(n))
+
+
+
+
