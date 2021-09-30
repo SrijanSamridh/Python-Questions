@@ -18,3 +18,7 @@ s = int(input())
 e = int(input())
 step = int(input())
 printTable(s, e, step)
+
+
+
+
