@@ -47,14 +47,14 @@ def sumOfTwoArrays(arr1, n, arr2, m, output=None):
     arr2.insert(0, 0)
     for i in range(len(arr1)):
         output.append(0)
-    f = 0
+    carry = 0
     for i in range(len(arr1) - 1, -1, -1):
-        x = arr1[i] + arr2[i] + f
-        output[i] = (arr1[i] + arr2[i] + f) % 10
+        x = arr1[i] + arr2[i] + carry
+        output[i] = (arr1[i] + arr2[i] + carry) % 10
         if x > 9:
-            f = 1
+            carry = 1
         else:
-            f = 0
+            carry = 0
     # return output
 
 
