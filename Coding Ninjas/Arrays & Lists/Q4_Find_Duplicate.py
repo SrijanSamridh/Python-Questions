@@ -17,8 +17,8 @@
 # Output for every test case will be printed in a separate line.
 
 import sys
-from collections import Counter
 
+from collections import Counter
 
 def duplicateNumber(arr, n):
     # Your code goes here
@@ -27,6 +27,16 @@ def duplicateNumber(arr, n):
     for key in keys:
         return key
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 # Taking Input Using Fast I/O
 def takeInput():
@@ -47,3 +57,6 @@ while t > 0:
     print(duplicateNumber(arr, n))
 
     t -= 1
+
+    
+    
