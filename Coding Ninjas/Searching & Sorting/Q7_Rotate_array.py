@@ -17,6 +17,9 @@
 #
 # Output for every test case will be printed in a separate line.
 
+from sys import stdin
+
+
 def rotate(arr, n, d):
     # Your code goes here
     # arr[:] = arr[d:n] + arr[0:d]
