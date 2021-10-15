@@ -37,3 +37,45 @@ def rotate(arr, n, d):
 def rotate(arr, n, d):
     # Your code goes here
     arr[:] = arr[d:n] + arr[0:d]
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    #Taking Input Using Fast I/O
+def take2DInput() :
+    li = stdin.readline().rstrip().split(" ")
+    n = int(li[0])
+    d = int(li[1])
+    
+    if n == 0 :
+        return list(), 0, 0
+    
+    arr = [list(map(int, input().strip().split(" "))) for row in range(nRows)]
+    return arr, n, d
+
+
+#main
+t = int(stdin.readline().rstrip())
+
+while t > 0 :
+
+    arr, n, d = take2DInput()
+    rotate(arr, n, d)
+
+    t -= 1
